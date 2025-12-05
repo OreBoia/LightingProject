@@ -1352,7 +1352,7 @@ GameObject:
   - component: {fileID: 1525834702}
   - component: {fileID: 1525834701}
   m_Layer: 0
-  m_Name: LightProbesDark(Clone)
+  m_Name: LightProbesGroupObj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1414,7 +1414,7 @@ Transform:
   m_GameObject: {fileID: 1525834700}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.0461798, y: 0.69199, z: 0.54864}
+  m_LocalPosition: {x: -2.0461798, y: 0.69199, z: -0.45136}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
