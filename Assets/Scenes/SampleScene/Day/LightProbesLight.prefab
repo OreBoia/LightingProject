@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &618111586170030539
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2658574249991446073}
+  - component: {fileID: 4967636625954858997}
+  - component: {fileID: 149486868195450798}
+  m_Layer: 0
+  m_Name: LightProbesLight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2658574249991446073
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618111586170030539}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.0461798, y: 0.69199, z: 0.54864}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!220 &4967636625954858997
+LightProbeGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618111586170030539}
+  m_Enabled: 1
+  m_SourcePositions:
+  - {x: 1, y: 1.0673811, z: 1}
+  - {x: 1, y: 1, z: -1.9999999}
+  - {x: 1, y: -0.56724966, z: 1}
+  - {x: 3.4246554, y: -0.6147968, z: -1.496456}
+  - {x: -1, y: 1, z: 2.7238054}
+  - {x: -1, y: 1, z: -1.8247145}
+  - {x: -1, y: -1, z: 1}
+  - {x: -1, y: -1, z: -1}
+  - {x: 1.5169599, y: -0.5771698, z: 3.1446638}
+  - {x: 3.3698053, y: -0.69199, z: 0.91636}
+  - {x: 3.3105052, y: -0.69199, z: 3.1047735}
+  - {x: -0.13894415, y: -0.69199, z: -1.8332576}
+  - {x: 2.4521534, y: 0.89578474, z: -1.883695}
+  - {x: 3.196156, y: 1.1322833, z: 2.3351252}
+  - {x: 1.1992993, y: 0.82393324, z: 2.8775053}
+  - {x: 2.4728403, y: -0.69199, z: -0.6112038}
+  - {x: 0.67959976, y: -0.69199, z: -0.75013244}
+  m_Dering: 1
+--- !u!259 &149486868195450798
+LightProbeProxyVolume:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618111586170030539}
+  m_Enabled: 0
+  m_BoundingBoxMode: 2
+  m_ResolutionX: 2
+  m_ResolutionY: 2
+  m_ResolutionZ: 2
+  m_ResolutionProbesPerUnit: 0.25
+  m_BoundingBoxSize: {x: 4, y: 1.9999999, z: 5}
+  m_BoundingBoxOrigin: {x: 1.5, y: 0.49999994, z: 1}
+  m_ResolutionMode: 0
+  m_ProbePositionMode: 0
+  m_RefreshMode: 0
+  m_QualityMode: 1
+  m_DataFormat: 1

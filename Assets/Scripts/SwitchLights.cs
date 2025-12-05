@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class SwitchLights : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class SwitchLights : MonoBehaviour
 	
 	private LightmapData[] darkLightmap, brightLightmap = new LightmapData[0];
 
-	public LightProbeGroup lightProbeGroup;
+    public LightingDataAsset baselightingData, lightingDataAssetBright, lightingDataAssetDark;
 
     void Start()
     {
@@ -73,7 +74,6 @@ public class SwitchLights : MonoBehaviour
         if (darkLightmap == null || brightLightmap == null)
             BuildLightmapData();
         LightmapSettings.lightmaps = brightLightmap;
-        
     }
 
 	private void OnLight2Switched(InputAction.CallbackContext ctx)
@@ -81,6 +81,7 @@ public class SwitchLights : MonoBehaviour
         if(darkLightmap.Length == 0 || brightLightmap.Length == 0)
             BuildLightmapData();
 		LightmapSettings.lightmaps = brightLightmap;
+
 	}
 
     [ContextMenu("Switch Lights2")]
@@ -89,6 +90,7 @@ public class SwitchLights : MonoBehaviour
         if (darkLightmap == null || brightLightmap == null)
             BuildLightmapData();
         LightmapSettings.lightmaps = darkLightmap;
+        
     }
 	
 	private void OnLight3Switched(InputAction.CallbackContext ctx)
